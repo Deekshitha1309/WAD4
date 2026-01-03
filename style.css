@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/736x/52/53/ab/5253ab1d10eb74f4bc22d714793a52df.jpg");
+}
+
+.page {
+    display: grid;
+    grid-template-rows: 20% 10% auto;
+    height: 100vh;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    background-image: url("https://i.pinimg.com/736x/36/ab/bf/36abbfe87597f0c307f6b6e78f630fa8.jpg");
+    border-bottom: 2px solid #000000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.heading h1 {
+    font-size: 32px;
+}
+
+.heading p {
+    font-size: 14px;
+}
+
+.topbar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-image: url("https://i.pinimg.com/1200x/24/8e/4d/248e4d2ff1ee709dc85b61e8411f0342.jpg");
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+    background-image: url("https://i.pinimg.com/736x/36/ab/bf/36abbfe87597f0c307f6b6e78f630fa8.jpg");
+    padding: 20px;
+    border-right: 2px solid #000000;
+}
+
+.sidebar h3 {
+    margin-bottom: 20px;
+}
+
+.genre-list {
+    list-style: none;
+}
+
+.genre-list li {
+    margin: 18px 0;
+    color: #000000;
+}
+
+.genre-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+
+.genre-list li {
+    cursor: not-allowed;
+}
+
+.content {
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.content-text {
+    margin: 20px auto 0 auto;
+    max-width: 700px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.content.default {
+    background-image: url("https://i.pinimg.com/736x/27/b1/3c/27b13c25b135d550163a64741e00d175.jpg");
+}
+
+
+.content.fantasy {
+    background-image: url("https://i.pinimg.com/1200x/70/07/22/70072269dd64be4aeacdbf941fda71bc.jpg");
+}
+
+.content.romance {
+    background-image: url("https://i.pinimg.com/1200x/e7/e5/b0/e7e5b08ff7bf177607e58ef565b8c2e1.jpg");
+}
+
+.content.action {
+    background-image: url("https://i.pinimg.com/736x/36/3a/05/363a05ba5c7700b20b29898fd7c5a0f1.jpg");
+}
+
+.content.thriller {
+    background-image: url("https://i.pinimg.com/1200x/2e/36/0f/2e360f355bf2b7505dc877d249d72d71.jpg");
+}
+
+.content.fiction {
+    background-image: url("https://i.pinimg.com/1200x/78/85/b7/7885b7216437601598a21bca10751bec.jpg");
+}
+
+
+
+
+
